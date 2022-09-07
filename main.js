@@ -4,7 +4,15 @@ import { setupCounter } from './counter.js'
 import buttonStyles from './button.module.css';
 import imageStyles from './image.module.css';
 import img from './Spidey.jpeg';
-import data from './data.json';
+import { user } from './data.json';
+
+const modules = import.meta.glob('./modules/*.js');
+
+for(const path in modules) {
+  modules[path]().then((module) => {
+    module.load();
+  });
+}
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -25,7 +33,7 @@ document.querySelector('#app').innerHTML = `
     <h3 id="btn">hola</h3>
 
     <img id="img"></img>
-    <pre>${JSON.stringify(data)}</pre>
+    <pre>${JSON.stringify(user)}</pre>
   </div>
 `
 
