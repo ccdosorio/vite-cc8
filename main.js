@@ -4,6 +4,7 @@ import { setupCounter } from './counter.js'
 import buttonStyles from './button.module.css';
 import imageStyles from './image.module.css';
 import img from './Spidey.jpeg';
+import data from './data.json';
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -24,6 +25,7 @@ document.querySelector('#app').innerHTML = `
     <h3 id="btn">hola</h3>
 
     <img id="img"></img>
+    <pre>${JSON.stringify(data)}</pre>
   </div>
 `
 

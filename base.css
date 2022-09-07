@@ -4,3 +4,7 @@
 body {
     background-color: whitesmoke;
 }
+
+pre {
+    color: black;
+}
