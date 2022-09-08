@@ -1,0 +1,802 @@
+.pt-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/*banner*/
+.img-banner {
+    background-color:#ccc;
+    background-image: url('../img/admisiones-header.png');
+    background-repeat:no-repeat;
+    position:relative;
+    background-size:cover;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10% 0;
+}
+
+.img-banner .img-content-ug {
+    position:relative;
+}
+
+.img-banner .img-container-ug img {
+    width:100%;
+}
+
+.img-banner .overlay-ug {
+    background-color: #212529;
+    opacity: 0.3;
+}
+
+.img-banner .img-content-ug h1 {
+    color: #fff;
+}
+
+/*end banner*/
+
+/*proceso admision*/
+.card-adm-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.card-adm {
+    padding: .75rem 1.25rem;
+    border: 3px solid #0057bf;;
+    /*margin-bottom: .75rem;*/
+    text-align:center;
+    color: #0057bf;
+    text-decoration:none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    min-height: 189px;
+    max-height: 190px;
+}
+
+.card-adm-section .card-adm figure img {
+    max-width: 25%;
+}
+
+.card-adm-section a:hover .card-adm {
+    color:#fff;
+    background-color:#212529;
+}
+
+.card-adm span {
+    font-family: Montserrat-Bold, sans-serif;
+    font-size:18px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+}
+
+.card-adm-section a {
+    text-decoration:none;
+    color: #0057bf;
+}
+
+.card-adm-section .active a {
+    color: #fff;
+}
+
+.title-adm {
+    font-size: 40px;
+    color: #212529;
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+.card-adm-section .col-md-4 { 
+    -webkit-box-flex: 0; 
+        -ms-flex: 0 0 100%; 
+            flex: 0 0 100%;
+    margin-bottom: 20px;
+}
+
+.has-3-columns.card-adm-section .wp-block-column {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-adm-section .col-md-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin-bottom: 20px;
+}
+
+.card-adm-section .card-adm:hover {
+    background-color: #0057bf;
+}
+
+.card-adm-section .card-adm:hover img {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+}
+
+.card-adm-section .card-adm.active {
+    background-color: #0057bf;
+}
+
+.card-adm-section .card-adm.active img {
+    -webkit-filter: brightness(0) invert(1);
+            filter: brightness(0) invert(1);
+}
+
+.card-adm-section .card-adm:hover a {
+    color: #fff;
+}
+
+
+/*end proceso admision*/
+
+/*examen ubicacion*/
+
+.examen-ubicacion {
+    background-color: #212529;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+}
+
+.flex-row {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+        -ms-flex-align:center;
+            align-items:center;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+    padding: 30px 0px;
+}
+
+.examen-ubicacion h1, .admision-carreras h1,
+.admision-galileox h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+.exm-card-section a {
+    text-decoration: none;
+}
+
+.exm-card-section div:first-child .card-exm {
+    padding: 2rem .25rem;
+    border: 3px solid #fff;
+    text-align: center;
+    color: #212529;
+    background-color:#fff;
+}
+
+.exm-card-section div:first-child .card-exm span {
+    color: #212529;
+}
+
+.exm-card-section .col-md-3 {
+    margin-bottom:15px;
+}
+
+.card-exm {
+    padding: 2rem .25rem;
+    border: 3px solid #fff;
+    text-align: center;
+    color: #fff;
+}
+
+.card-exm span {
+    color: #fff;
+}
+
+
+.card-exm span:first-child {
+    display:block;
+    font-size: 5em;
+    line-height: 2em;
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+.card-exm span:last-child {
+    display:block;
+    font-size: 2em;
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+/*end examen ubicacion*/
+
+/*carreras*/
+
+.admision-carreras {
+    background-color: #0057bf;
+}
+
+.admision-carreras p, .admision-galileox p {
+    color:#fff;
+    padding-bottom:30px;
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 20px;
+}
+
+.admision-carreras a, .admision-galileox a {
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 16px;
+}
+
+.admision-carreras a:hover, .admision-galileox a:hover {
+    background-color: #fff;
+    color: #0057bf;
+}
+
+/*end carreras*/
+
+/*ACERCA DE*/
+
+.admision-acerca-de .btn-adm {
+    border: 2px solid #b89a59;
+    color: #b89a59;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 16px;
+}
+
+.admision-acerca-de .btn-adm:hover {
+    border: 2px solid #b89a59;
+    color:#fff;
+    background-color: #b89a59;
+}
+
+/*end acerca de*/
+
+/*galileox*/
+
+
+.admision-galileox {
+    background-color: #212529;
+}
+
+.admision-galileox a:hover {
+    color:#212529;
+}
+
+/*end galileox*/
+
+/*contacto*/
+
+.admision-contacto {
+    background-color:#444B50;
+}
+
+.admision-contacto .cform textarea, .cform input {
+    background-color:#fff;
+    border:1px solid #fff;
+    color: #212529;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.admision-contacto .cform input.backbutton, 
+.admision-contacto .cform input.resetbutton, 
+.admision-contacto .cform input.sendbutton,
+.cform-principal .cform input.backbutton, 
+.cform-principal .cform input.resetbutton, 
+.cform-principal .cform input.sendbutton {
+    background: none;
+    color: #b89a59!important;
+    border: 2px solid #b89a59!important;
+    background-color: #b89a59;
+    color:#fff!important;
+    border: 2px solid #b89a59!important;
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.admision-contacto .cform input.backbutton:hover, 
+.admision-contacto .cform input.resetbutton:hover, 
+.admision-contacto .cform input.sendbutton:hover
+.cform-principal .cform input.backbutton:hover, 
+.cform-principal .cform input.resetbutton:hover, 
+.cform-principal .cform input.sendbutton:hover {
+    background: #fff;
+    color: #b89a59!important;
+    border: 2px solid #b89a59!important;
+}
+
+.cform-principal .cform ol.cf-ol {
+    padding: 0;
+}
+
+.about-ug-card {
+    
+    padding:5px;
+}
+
+.card-about-ug h1 {
+    color: #212529;
+    font-size: 24px;
+    font-family: Montserrat-Bold;
+}
+
+.card-about-ug span {
+    font-size: 16px;
+    color: #212529;
+    font-family: Montserrat-Light;
+}
+
+.acerca-de-galileo .flex-row {
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
+}
+
+.contact-adm {
+    background-color:#444B50;
+    color: #fff;
+}
+
+.admision-contacto form {
+    width: 100%;
+    float: inherit;
+    margin: 30px 0;
+}
+
+.admision-contacto form label {
+    color: #fff!important;
+    font-family: Montserrat-Light, sans-serif!important;
+    font-size: 16px;
+}
+
+.admision-contacto form ol {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.admision-contacto form ol li {
+    margin: 0!important;
+    padding:0!important;
+}
+
+.admision-contacto .title-adm, .admision-contacto p,
+.admision-contacto span, .admision-contacto a {
+    color: #fff;
+}
+
+.adm-social {
+    background-color: #747A7D;
+}
+
+.adm-social {
+    color: #fff;
+}
+
+.adm-social h1 {
+    font-size: 36px;
+    font-family: Montserrat-Bold;
+    /* text-align: center; */
+    text-transform: uppercase;
+}
+
+.adm-social div {
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 16px;
+}
+
+.social-ad {
+    margin:30px auto;
+    text-align: center;
+    font-size: 2em!important;
+    text-transform: uppercase;
+    font-family: Montserrat-Bold, sans-serif!important;
+}
+
+.social-ico {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.social-ico .social-icon i {
+    font-size: 48px;
+    color: #fff;
+    margin: 10px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.social-ico .social-icon:hover i {
+    color: #747A7D;
+    background-color: #fff;
+}
+
+.social-blue {
+    padding: 30px 0;
+}
+
+.social-blue .wp-block-column .social-ico .social-icon i {
+    font-size: 48px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.social-blue .wp-block-column .social-ico .social-icon:hover i {
+    color: rgba(255,255,255,0.5);
+    background-color: #00c3d6;
+}
+
+.social-blue .wp-block-column p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.social-blue .social-ico {
+    padding-bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-ico >div {
+    display: inline-block;
+}
+
+.admision-galileox ,
+.admision-carreras ,
+.admision-contacto {
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.examen-ubicacion .wp-block-column,
+.admision-galileox .wp-block-column,
+.admision-carreras .wp-block-column,
+.admision-contacto .wp-block-column {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.admision-carreras .wp-block-column, 
+.admision-carreras .wp-block-column figure,
+.admision-galileox .wp-block-column, 
+.admision-galileox .wp-block-column figure,
+.admision-contacto .wp-block-column {
+    margin-bottom: 0;
+}
+
+.admision-galileox .wp-block-column figure img {
+    width: 100%;
+}
+
+.admision-carreras .container .wp-block-column:first-child > ul,
+.admision-galileox .container .wp-block-column:first-child > ul,
+.examen-ubicacion .container .wp-block-column:first-child > ul,
+.admision-carreras .container .wp-block-column:first-child > ol,
+.admision-galileox .container .wp-block-column:first-child > ol,
+.examen-ubicacion .container .wp-block-column:first-child > ol {
+    padding-left: 2em;
+    padding-right: 15px;
+}
+
+.admision-carreras .container,
+.admision-galileox .container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.admision-acerca-de .card-adm {
+    border: 0;
+}
+
+.admision-acerca-de figure figcaption {
+    color: #0057bf;
+    font-size: 24px;
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+.admision-carreras .wp-block-button__link {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.admision-carreras .wp-block-button__link:hover {
+    border: 2px solid #0057bf;
+    color: #0057bf;
+    background-color: #fff;
+}
+
+.admision-acerca-de-btn .wp-block-button__link {
+    border: 2px solid #0057bf;
+    color: #0057bf;
+    background: transparent;
+    text-decoration: none;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.admision-acerca-de-btn .wp-block-button__link:hover {
+    border: 2px solid #0057bf;
+    color: #fff;
+    background-color: #0057bf;
+}
+
+.admision-galileox .wp-block-button__link {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.admision-galileox .wp-block-button__link:hover {
+    border: 2px solid #212529;
+    color: #212529;
+    background-color: #fff;
+}
+
+.social-blue .wp-block-columns .wp-block-column:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*style form */
+
+.cform-principal {
+    color: #fff;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.cform-principal >div:first-child {
+    background: #444B50;
+    color:#fff;
+}
+
+.cform-principal >div:last-child {
+    background: #747A7D;
+    color:#fff;
+}
+
+.cform-principal .wp-block-column p {
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.cform-principal .cf-box-group input, .cform-principal .cf-box-group label {
+    display: inline-block;
+}
+
+.cform-principal .cf-box-group input {
+    width: 10%;
+}
+
+.cform-principal .cf-box-group label { 
+    width: 85%;
+}
+
+.cform-principal .wp-block-column p, .cform-principal .wp-block-column h2 {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cform-principal .wp-block-column h2 {
+    font-family: Montserrat-Bold,sans-serif;
+}
+
+.cform-principal .cform {
+    margin: 30px 15px;
+}
+
+.cform-principal .cform {
+    width: auto;
+    float: inherit;
+}
+
+.cform-principal .cform legend, .cform-principal .cform label span,
+.cform-principal .cform ol li {
+    color: #fff;
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 16px;
+    margin: 0 !important;
+}
+
+.cform-principal .cform span {
+    color: #fff;
+    width: 100%;
+}
+
+.cform-principal .cform legend {
+    font-size: 36px;
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+.cform-principal .cform textarea, .cform-principal .cform select {
+    background-color: #fff;
+    width: 100%;
+}
+
+.under-black, .under-white,
+.under-mustard {
+    text-align: left;
+}
+
+/*default content*/
+
+.post-wrap ul {
+    list-style: inherit;
+    margin-left: 2em;
+}
+
+.background-social-adm {
+    background-color: #00c3d6;
+    color: #fff;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .flex-100 {
+	width:100%;
+    }
+
+    .flex-50 {
+        width:100%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .flex-100 {
+	    -webkit-box-flex: 0;
+	        -ms-flex: 0 0 100%;
+	            flex: 0 0 100%;
+    }
+
+    .flex-50 {
+	    -webkit-box-flex: 0;
+	        -ms-flex: 0 0 50%;
+            flex: 1;
+    }
+
+    .has-3-columns.card-adm-section .wp-block-column,
+    .card-adm-section .col-md-4 {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 1;
+    }
+
+    .card-adm-section .col-md-3 {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+            flex: 1;
+    }
+
+    .examen-ubicacion ,
+    .admision-galileox ,
+    .admision-carreras ,
+    .admision-contacto {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /*.img-banner {
+	min-height:642px;
+    }*/
+
+    .img-banner img-content-ug h1 {
+	font-size:36px;
+	color:#fff;
+    }
+
+    .img-banner .img-content-ug h1 {
+	font-size: 60px;
+	color: #fff;
+	font-family: Montserrat-Bold, sans-serif;
+    }
+    
+    .img-banner .img-content-ug h2 {
+	font-size: 36px;
+	color: #fff;
+	font-family: Montserrat-Medium, sans-serif!important;
+    }
+
+    .examen-ubicacion {
+	    min-height:360px;
+    }
+
+    .has-3-columns.card-adm-section .wp-block-column,
+    .card-adm-section .col-md-4 {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 33.33333%;
+                flex: 1;
+    }
+
+    .card-adm-section .col-md-3 {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 25%;
+            flex: 1;
+    }
+
+    .flex-100 {
+	    -webkit-box-flex: 0;
+	        -ms-flex: 0 0 100%;
+            flex: 1 1 auto;
+    }
+
+    .flex-50 {
+	    -webkit-box-flex: 0;
+	        -ms-flex: 0 0 50%;
+	            flex: 1;
+    }
+
+    .admision-carreras .wp-block-column {
+        width: 750px;
+    }
+    .social-blue .wp-block-column .social-ico .social-icon i {
+        font-size: 48px;
+    }
+    .social-blue .wp-block-column p {
+        font-size: 36px;
+        line-height: 36px;
+        text-align: left;
+    }
+
+    .social-blue {
+        padding: 71px 0;
+    }
+}   
+
+
+
+@media (min-width: 992px) {
+    .admision-carreras .wp-block-column {
+        width: 970px;
+    }
+    .social-blue .wp-block-column .social-ico .social-icon i {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .admision-carreras .wp-block-column {
+        width: 1170px;
+    }
+
+    .social-blue .wp-block-column .social-ico .social-icon i {
+        font-size: 82px;
+    }
+    .social-blue .wp-block-column p {
+        font-size: 42px;
+        line-height: 42px;
+        text-align: left;
+    }
+}

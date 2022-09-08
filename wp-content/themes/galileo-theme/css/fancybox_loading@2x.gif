@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es">
+<head>
+    <title>Archivo no encontrado/File not found - Error 404</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="/resources/theme-ges/Selva/comun/NuGES.css" media="all">
+</head>
+
+<body>
+
+<div id="container">
+
+ <div id="basichead">
+  <div id="Rhead">
+
+   <div id="gnav">
+    <a href="http://www.galileo.edu/faqs-archivo/ges/">
+      <img src="/resources/theme-ges/Selva/images/hspace.gif" width="17" height="12" />Ayuda     
+    </a> 
+    <a href="http://correo.galileo.edu/" target="_blank">
+      <img src="/resources/theme-ges/Selva/images/hmail.gif" width="15" height="12" />Correo Electr&oacute;nico     
+    </a>
+    <a href="/register/">
+      <img src="/resources/theme-ges/Selva/images/hexit.gif" width="12" height="12" />Entrar
+    </a> 
+   </div>
+  </div>
+ </div>
+
+
+  <div style="height:1px;">&nbsp;</div>
+  <div style="padding:5px">
+&nbsp;
+    <div class="nohay">
+       Lo sentimos, no es posible encontrar la p&aacute;gina solicitada.
+    </div>
+  </div>
+
+   <div id="contfooter">
+
+   <div id="footimg"><img src="/resources/theme-ges/Selva/images/geslogos.png" alt="GALILEO-GES" width="190" height="41" /></div>
+
+
+  <div>
+  <p>&nbsp;</p>
+  <p><strong>&copy; 2017 UNIVERSIDAD GALILEO</strong>. 7a. Avenida, calle Dr. Eduardo Suger Cofi&ntilde;o , Zona 10, Guatemala C.A. &copy 2004 - 2017. Departamento de Investigaci&oacute;n y Desarrollo GES, Torre Galileo Oficina 413.  </p></div>
+   </div></div>
+
+  </div>
+
+</div>
+<br/>
+
+</body>
+</html>

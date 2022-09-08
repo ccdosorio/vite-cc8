@@ -1,4 +1,4 @@
-@import './owl.carousel.css';
+@import './base.css';
 
 img.wp-smiley,
 img.emoji {
@@ -11,4 +11,8 @@ img.emoji {
     vertical-align: -0.1em !important;
     background: none !important;
     padding: 0 !important;
+}
+
+.wp-block-getwid-section .wp-block-getwid-section__wrapper .wp-block-getwid-section__inner-wrapper {
+    max-width: 660px;
 }

@@ -1,0 +1,890 @@
+/* GALILEO PH PENSUMS
+--------------------------------------------------------------- */
+body {
+	padding-right: 0!important;
+}
+
+.gph_pensum, .gph_h_container {
+	color: #545253;
+	margin-top: 15px;
+}
+.gph_p_years, .gph_p_cycles {
+	list-style-type: none;
+	margin-left: 0;
+}
+.gph_p_cycles{
+	padding-bottom: 30px;
+	background:#fff;
+	margin-top: -10px;
+	list-style: none !important;
+	margin-left: 0 !important;
+}
+.gph_p_year{
+	border: solid;
+	border-color: #C3C3C3;
+	clear: both;
+	margin:08px 5px;
+}
+.gph_p_year_title{
+	background-image: url("../images/ciclo.png");
+	background-position:bottom;
+	background-repeat: repeat-x;
+	text-transform: uppercase;
+	padding: 7px 2em 4px 2em;
+	font-size: 12px;
+	background-color:#4c4c4c;
+	color: #ffffff !important;
+	margin-top:0px;
+}
+.gph_p_cycle_left{
+	padding: 0px;
+	width: 100%;
+}
+.gph_p_cycle_left .gph_p_cycle_content {
+	width: 100%;
+}
+.gph_pensum tfoot{
+	text-align: right;
+}
+.gph_p_cycles li h3{
+	margin-bottom: 5px;
+	padding-top: 10px;
+	border-bottom: 4px solid #b3b3b3;
+    font-family: Montserrat-Bold, sans-serif;
+    margin-top: 6px;
+    padding-top: 0;
+}
+.gph_p_cycle_left h3{
+	clear: left !important;
+	margin-left: 0;
+}
+.gph_p_cycle_right{
+    width: 100%;
+}
+.gph_p_cycle_right h3{
+	clear: right !important;
+	margin-left: 0;
+}
+.gph_pensum table{
+	font-size: 10pt;
+	width: 100%;
+}
+.gph_pensum th, .gph_pensum td{
+	text-transform: capitalize;
+	font-size: 0.8em;
+	padding: 5px 5px;
+	font-family: Montserrat-Regular, sans-serif;
+}
+.gph_pensum td{
+	padding: 5px 0 5px 10px;
+	height: 40px;
+}
+.gph_pensum th{
+	border-bottom: 1px solid #B7B7B7;
+	font-family: Montserrat-Bold, sans-serif;
+	font-size: 15px;
+}
+td.gph_cas, th.total_cas{
+	font-size: 14px;
+	padding: 5px 5px;
+	width: 60px;
+	text-align: center;
+}
+.gph_pensum sup{
+	text-transform: uppercase;
+	font-size: 0.5em;
+}
+.gph_p_row_even td{
+	background-color: #ededed;
+}
+.gph_p_row_odd td{
+	background-color: #d6d6d6;
+}
+.cycle_row_separator{
+	clear:both;
+	font-size:0px;
+}
+
+/* CARRERAS */
+.gph_c_career_col{
+	/*padding-left: 2em;*/
+	font-size: 12pt;
+}
+.gph_c_pensum_link, .gph_c_timetable_link{
+	color:	#5A5957;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 0px 0 2px 25px;
+	display: block;
+	font-family: Montserrat-Medium,sans-serif;
+}
+
+.gph_c_pensum_link{
+	background-image: url(../images/pensum-link.png);
+	background-repeat: no-repeat;
+}
+.gph_c_timetable_link{
+	background-image: url(../images/horario-link.png);
+	background-repeat: no-repeat;
+
+}
+.gph_c_table td{
+	line-height: 2em;
+}
+.gph_course_description{
+	display: none;
+	text-transform: none;
+	font-family: Montserrat-Regular, sans-serif;
+}
+.gph_course_link{
+	color:	#b89a59;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Montserrat-Regular, sans-serif;
+}
+.gph_course_link:hover {
+	text-decoration: underline;
+	color: #b89a59;
+}
+.gph_course_link:focus {
+	color: #b89a59;
+}
+.gph_a_c_nodesc, .gph_a_c_nodesc:hover{
+	text-decoration: none !important;
+	color: #545253 !important;
+	cursor: default;
+}
+.bottom_content_horario{
+	background-image:url("../images/bg-inferior-horarios.png") !important;
+	background-position:bottom center;
+}
+.contenidoTabsInfo a:hover {
+    font-family: "light",Arial !important;
+}
+
+.gph_c_table .row {
+	padding-left: 2em;
+	margin: 10px 0;
+	margin-right: 0;
+}
+
+.gph_c_table .row > div {
+	vertical-align: middle;
+}
+
+.gph_c_level h2 {
+	font-family: Montserrat-Bold, sans-serif;
+	text-transform: capitalize;
+}
+
+.gph_c_timetable_link, .gph_c_pensum_link {
+	color: #212529 !important;
+    border: solid 2px #b89a59 !important;
+    background: #fff!important;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
+	padding: 5px 15px;
+}
+
+.gph_c_timetable_link:hover, .gph_c_pensum_link:hover {
+	color: #fff !important;
+    border: solid 2px #b89a59 !important;
+    background: #b89a59!important;
+    text-decoration: none;
+}
+.total-creditos h3 {
+	font-family: Montserrat-Bold, sans-serif;
+}
+.title-timetable-result {
+	text-decoration: none;
+}
+.title-timetable-result:hover {
+	text-decoration: none;
+	color: #b89a59 !important;
+}
+
+/*horario ug nuevo*/
+
+.horario-ug .main-color-ug {
+	background-color: #212529;
+	color: #fff;
+	display: flex;
+    flex-flow: row nowrap;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.horario-ug .main-color-ug>div {
+	flex: 1 1 auto;
+    text-align: center;
+    color: #fff;
+	font-family: Montserrat-Medium,sans-serif;
+	width: 25%;
+}
+
+.horario-ug .main-color-ug>div:first-child {
+	width: 50%;
+}
+
+.horario-ug .ug-body a .cycle-name {
+	display: flex;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 5px 0;
+}
+
+.horario-ug .ug-body a .cycle-name >div {
+	flex: 1 1 auto;
+    text-align: center;
+    color: #000;
+    font-family: Montserrat-Medium,sans-serif;
+    width: 25%;
+}
+
+.horario-ug .ug-body a .cycle-name >div:first-child {
+	width: 50%;
+}
+
+.horario-ug .ug-body a:nth-child(odd) > div {
+	background-color: #ededed;
+}
+
+.horario-ug .ug-body a:nth-child(even) > div {
+	background-color: #d6d6d6;
+}
+
+.horario-ug .ug-body a:hover {
+	background-color: #b89a59;
+	color: #fff;
+	text-decoration: none;
+}
+
+.horario-ug .ug-body a:hover div {
+	background-color: #b89a59;
+}
+
+.horario-ug .main-color-ug th {
+	font-family: Montserrat-Bold,sans-serif;
+	text-align: center;
+}
+
+.horario-ug .main-color-ug th:first-child {
+	text-align: left;
+}
+
+.table.horario-ug > tbody > tr:hover > td {
+	background-color: #b89a59;
+	color: #fff;
+}
+
+.gph_h_timetable thead {
+	background-color:#212529;
+	color: #fff;
+	font-family: Montserrat-Bold,sans-serif;
+	text-align: center;
+	font-size: 16px;
+}
+
+.gph_h_timetable.table > tbody > tr.gph_h_row_even:hover > td.gph_h_col_even {
+	background-color: #dddddd;
+}
+
+.gph_h_timetable.table > tbody > tr.gph_h_row_even:hover > .gph_h_col_odd {
+	background-color: #c1c1c1;
+}
+
+.gph_h_timetable.table > tbody > tr.gph_h_row_odd:hover > td {
+	background-color: #dddddd;
+}
+
+.gph_h_timetable.table > tbody > tr.gph_h_row_odd:hover > .gph_h_col_odd {
+	background-color: #c1c1c1;
+}
+
+.days {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+	align-items: center;
+	background-color: #212529;
+	position: fixed;
+    width: 100%;
+    z-index: 9999;
+    right: 0;
+    left: 0;
+    top: 64px;
+}
+
+.days li {
+	flex: 1 1 auto;
+	text-align: center;
+	color: #fff!important;
+	font-family: Montserrat-Bold,sans-serif!important;
+	padding: 5px;
+}
+
+.days li a {
+	border-radius: 0;
+	margin-right: 0;
+	padding: 10px 0;
+}
+
+.days div a {
+	color: #fff!important;
+	border-radius: 0;
+}
+
+.days div.active a {
+	color: #b89a59!important;
+}
+
+.horario-ug-mobile .day-elements {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.horario-ug-mobile .day-elements > div {
+	flex: 1 1 auto;
+	padding: 10px 15px;
+}
+
+.horario-ug-mobile .day-elements .time {
+	width: 100%;
+	font-size: 14px;
+}
+
+.horario-ug-mobile .day-elements .title-course {
+	font-family: Montserrat-Medium,sans-serif;
+}
+
+.horario-ug-mobile .day-elements .course-detail {
+	width: 80%;
+}
+
+.horario-ug-mobile .tab-content .tab-pane > div:nth-child(odd) {
+	background-color: #ededed;
+}
+
+.horario-ug-mobile .tab-content .tab-pane > div:nth-child(even) {
+	background-color: #d6d6d6;
+}
+
+.gph_title {
+	font-family: Montserrat-Medium,sans-serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+.gph_h_description {
+	padding: 15px 0;
+	font-family: Montserrat-Medium;
+	font-size: 16px;
+	border-top: 2px dotted #c9c9c7;
+}
+
+.gph_h_h_end, .gph_h_h_start {
+	color: #fff!important;
+}
+
+/*modal horario*/
+
+.ghp_timetable.modal {
+	z-index: 99999999;
+	padding-right: 0!important;
+}
+
+.ghp_timetable .modal-dialog, .modal-content {
+	width: 100%;
+	height: 100%;
+}
+
+.ghp_timetable .modal-dialog {
+	margin: 0;
+}
+
+.modal-content {
+	border-radius: 0;
+	border:0;
+	box-shadow: none;
+	overflow-y: scroll;
+}
+
+.modal-header .close {
+	opacity: 1;
+}
+
+.modal-header {
+	box-shadow: 0px 0px 4px 0px #9c9c9c;
+	background-color: #fff;
+	color: #212529 !important;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.modal-header h4, .modal-header button {
+	flex: 1 1 auto;
+}
+
+.modal-header button {
+	text-align: right;
+}
+
+.modal-body {
+	margin-top: 120px;
+}
+
+.gph_pensum .flat-toggle .toggle-title {
+	display: flex;
+}
+
+.gph_pensum .flat-toggle .toggle-title .first,
+.gph_pensum .flat-toggle .toggle-title .second{
+	width: 50%;
+	font-family:  Montserrat-Medium, sans-serif;
+}
+
+.gph_pensum .flat-toggle .toggle-title .first:nth-child(2){
+	padding-left: 2%;
+}
+.gph_pensum .flat-toggle .toggle-title.active .first,
+.gph_pensum .flat-toggle .toggle-title:hover .first,
+.gph_pensum .flat-toggle .toggle-title.active .second,
+.gph_pensum .flat-toggle .toggle-title:hover .second{
+	color: #fff;
+}
+
+.gph_pensum .flat-toggle .toggle-content .gph-left{
+	padding-left: 0;
+}
+
+.gph_pensum .flat-toggle .toggle-content .gph-right{
+	padding-right: 0;
+}
+
+.gph_pensum .gph_p_table tbody{
+	border-left: 10px solid #256895;
+}
+
+.gph_pensum .flat-toggle .toggle-content {
+	padding: 20px;
+}
+
+.gph_c_level .col-career-name {
+	text-transform: capitalize;
+}
+
+.gph_p_cycle_title {
+	border-bottom: 4px solid #b3b3b3;
+	margin: 0;
+	font-family: Montserrat-Bold, sans-serif;
+}
+
+
+
+@media only screen and (max-width: 575.98px) {
+    .content-post-son.pensum * {
+		font-size: 14px;
+    }
+    .content-post-son.pensum .gph_pensum sup {
+		font-size: 0.5em;
+	}
+	
+	.gph_c_table .row {
+		padding-left: 0;
+	}
+
+	.gph_c_timetable_link, .gph_c_pensum_link {
+		margin: 10px 0;
+	}
+	.gph_p_cycle_right h3 {
+		margin-top: 15px !important;
+	}
+	td.gph_cas, th.total_cas {
+		vertical-align: middle;
+    }
+
+	.gph_h_h_end {
+		padding-top: 0;
+	}
+	.gph_h_timetable .gph_h_course,
+	.gph_h_timetable .gph_h_location {
+		font-size: 13px;
+	}
+
+	.gph_p_cycle_title_movile {
+		display: block;
+	}
+
+	.gph_pensum .flat-toggle .toggle-content .gph-left,
+	.gph_pensum .flat-toggle .toggle-content .gph-right {
+		padding: 0;
+	}
+
+	.gph_pensum .flat-toggle .toggle-content .gph-right {
+		padding-top: 10% !important;
+	}
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .content-post-son.pensum * {
+	font-size: 16px;
+    }
+    .content-post-son.pensum .gph_pensum sup {
+	font-size: 0.5em;
+	}
+	
+	.gph_c_timetable_link, .gph_c_pensum_link {
+		margin: 10px 0;
+	}
+	.gph_p_cycle_right h3 {
+		margin-left: 18px;
+		margin-top: 15px !important;
+    }
+    td.gph_cas, th.total_cas {
+		vertical-align: middle;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .content-post-son.pensum * {
+	font-size: 18px;
+    }
+    .content-post-son.pensum .gph_pensum sup {
+	font-size: 0.5em;
+    }
+    .gph_p_cycle_right h3 {
+		margin-left: 0;
+		margin-top: 15px !important;
+    }
+    td.gph_cas, th.total_cas {
+		vertical-align: middle;
+	}
+
+	.ghp_timetable.modal {
+		background-color: rgba(0,0,0,.5);
+	}
+
+	.ghp_timetable.face-scale {
+		transform: scale(0);
+		opacity: 0;
+		-webkit-transition: all .25s linear;
+		-o-transition: all .25s linear;
+		transition: all .25s linear;
+	}
+
+	.ghp_timetable.face-scale.in {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	.ghp_timetable .modal-dialog {
+		display: block;
+		width: 100%;
+		margin: auto;
+		height: 100%;
+	}
+
+	.modal-header {
+		box-shadow: 0px 0px 4px 0px #9c9c9c;
+		background-color: #fff;
+		color: #212529 !important;
+	}
+
+	.modal-content {
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+	}
+
+	.modal-body {
+		margin-top: 64px;
+	}
+
+	.gph_titles_days {
+		display: flex;
+		align-items: center;
+		padding: 5px 0;
+		background-color: #212529;
+	}
+
+	.gph_titles_days > div {
+		flex: 1 1 auto;
+		text-align: center;
+		font-family: Montserrat-Medium,sans-serif!important;
+		color: #fff!important;
+		width: 15%;
+	}
+
+	.gph_titles_days .title-hour {
+		flex: 0 0 15%;
+	}
+
+	.course-list-table .tab-body >div {
+		display: flex;
+		border-bottom: 1px dashed #eaeaea;
+	}
+
+	.course-list-table .tab-body > div >div {
+		flex: 1 1 auto;
+		width: 15%;
+		padding: 10px;
+		word-break: break-word;
+	}
+
+	.course-list-table .tab-body > div >div:nth-child(even) {
+		background-color: #ededed;
+	}
+
+	.course-list-table .tab-body > div >div:nth-child(odd) {
+		background-color: #d6d6d6;
+	}
+
+	.course-list-table .tab-body >div >div.gph_h_hours {
+		background-color: #212529;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		flex-flow: column;
+		flex: 0 0 15%;
+	}
+
+	.gph_p_cycle_title_movile {
+		display: block;
+	}
+
+	.gph_pensum .flat-toggle .toggle-content .gph-left,
+	.gph_pensum .flat-toggle .toggle-content .gph-right {
+		padding: 0;
+	}
+
+	.gph_pensum .flat-toggle .toggle-content .gph-right {
+		padding-top: 5% !important;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    .content-post-son.pensum * {
+	font-size: 19px;
+    }
+    .content-post-son.pensum .gph_pensum sup {
+	font-size: 0.5em;
+    }
+    .gph_p_cycle_right h3 {
+		margin-left: 18px;
+    }
+    td.gph_cas, th.total_cas {
+		vertical-align: middle;
+	}
+
+	.horario-ug {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.ghp_timetable.modal {
+		background-color: rgba(0,0,0,.5);
+	}
+
+	.ghp_timetable.face-scale {
+		transform: scale(0);
+		opacity: 0;
+		-webkit-transition: all .25s linear;
+		-o-transition: all .25s linear;
+		transition: all .25s linear;
+	}
+
+	.ghp_timetable.face-scale.in {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	.ghp_timetable .modal-dialog {
+		display: block;
+		width: 70%;
+		margin: auto;
+		top: 10%;
+		height: 70%;
+	}
+
+	.modal-header {
+		box-shadow: 0px 0px 4px 0px #9c9c9c;
+		background-color: #fff;
+		color: #212529 !important;
+	}
+
+	.modal-content {
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+	}
+
+	.modal-body {
+		margin-top: 64px;
+	}
+
+	.gph_titles_days {
+		display: flex;
+		align-items: center;
+		padding: 5px 0;
+		background-color: #212529;
+	}
+
+	.gph_titles_days > div {
+		flex: 1 1 auto;
+		text-align: center;
+		font-family: Montserrat-Medium,sans-serif!important;
+		color: #fff!important;
+		width: 15%;
+	}
+
+	.gph_titles_days .title-hour {
+		flex: 0 0 15%;
+	}
+
+	.course-list-table .tab-body >div {
+		display: flex;
+		border-bottom: 1px dashed #eaeaea;
+	}
+
+	.course-list-table .tab-body > div >div {
+		flex: 1 1 auto;
+		width: 15%;
+		padding: 10px;
+		word-break: break-word;
+	}
+
+	.course-list-table .tab-body > div >div:nth-child(even) {
+		background-color: #ededed;
+	}
+
+	.course-list-table .tab-body > div >div:nth-child(odd) {
+		background-color: #d6d6d6;
+	}
+
+	.course-list-table .tab-body >div >div.gph_h_hours {
+		background-color: #212529;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		flex-flow: column;
+		flex: 0 0 15%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+    .content-post-son.pensum * {
+		font-size: 19px;
+    }
+    .content-post-son.pensum .gph_pensum sup {
+		font-size: 0.5em;
+    }
+
+    .gph_p_cycles li {
+		width: 50%;
+		padding: 1%;
+		display: inline-block;
+	}
+
+	.horario-ug {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.ghp_timetable.modal {
+		background-color: rgba(0,0,0,.5);
+	}
+
+	.ghp_timetable.face-scale {
+		transform: scale(0);
+		opacity: 0;
+		-webkit-transition: all .25s linear;
+		-o-transition: all .25s linear;
+		transition: all .25s linear;
+	}
+
+	.ghp_timetable.face-scale.in {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	.ghp_timetable .modal-dialog {
+		display: block;
+		width: 70%;
+		margin: auto;
+		top: 10%;
+		height: 70%;
+	}
+
+	.modal-header {
+		box-shadow: 0px 0px 4px 0px #9c9c9c;
+		color: #212529 !important;
+	}
+
+	.modal-content {
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+	}
+
+	.modal-body {
+		margin-top: 64px;
+	}
+
+	.gph_titles_days {
+		display: flex;
+		align-items: center;
+		padding: 5px 0;
+		background-color: #212529;
+	}
+
+	.gph_titles_days > div {
+		flex: 1 1 auto;
+		text-align: center;
+		font-family: Montserrat-Medium,sans-serif!important;
+		color: #fff!important;
+		width: 15%;
+	}
+
+	.gph_titles_days .title-hour {
+		flex: 0 0 15%;
+	}
+
+	.course-list-table .tab-body >div {
+		display: flex;
+		border-bottom: 1px dashed #eaeaea;
+	}
+
+	.course-list-table .tab-body > div >div {
+		flex: 1 1 auto;
+		width: 15%;
+		padding: 10px;
+		word-break: break-word;
+	}
+
+	.course-list-table .tab-body > div >div:nth-child(even) {
+		background-color: #ededed;
+	}
+
+	.course-list-table .tab-body > div >div:nth-child(odd) {
+		background-color: #d6d6d6;
+	}
+
+	.course-list-table .tab-body >div >div.gph_h_hours {
+		background-color: #212529;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		flex-flow: column;
+		flex: 0 0 15%;
+	}
+}

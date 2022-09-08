@@ -1,0 +1,305 @@
+.title-payment-page.page-title{
+    padding: 33px;
+    background: #272b2d;
+}
+
+
+.payment-page input[type="submit"] {
+    line-height: 16px;
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: auto;
+}
+.payment-page input[type="submit"]:hover {
+    background-color: #fff;
+    color: #b89a59;
+}
+
+.box_message ul li, .box_message, 
+.box_message strong, .pago_banner p,
+.box_message .container {
+    color: #fff!important;
+}
+
+.pago_banner h2 {
+    font-size: 16pt;
+    color: #fff!important;
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+#post_page_blanco a {
+    color: #b89a59;
+    font-family: Montserrat-Medium, sans-serif;
+}
+
+.box_message {
+    font-family: Montserrat-Light, sans-serif;
+}
+
+.box_message_paying strong, .box_message strong, .pago_total strong {
+    font-family: Montserrat-Bold,sans-serif;
+}
+
+.pago_banner, .box_big {
+    width: 100%;
+}
+
+.pago_banner {
+    background-color: transparent;
+    color: #fff;
+    line-height: 1em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.box_content h1, .box_content h2, .box h2 {
+    line-height: 48px;
+}
+
+.box_content table {
+    overflow-x: auto;
+    width: 100%;
+}
+
+
+.box_content_paying table, .box_content_paying table tbody,
+.box_content_paying table thead, .box_content_paying table th,
+.box_content_paying table td {
+    display: block;
+    width: 100%;
+    text-align: left;   
+}
+
+.box_700 + a + div {
+    display: inline-block;
+}
+
+.box_content img {
+    display: none!important;
+}
+
+#payment_options {
+    margin: 30px 0!important;
+}
+
+
+/*
+ * New
+*/
+.container-payment .row {
+    margin: 0;
+}
+.container-payment .box_big, 
+.container-payment .box_700 {
+    box-shadow: none;
+}
+.container-payment .box_message {
+    padding: 2%;
+}
+.container-payment .box_message ul {
+    list-style: none;
+}
+
+.container-payment .box_content h1,
+.container-payment .box_content h2,
+.container-payment .box h2 {
+    margin-bottom: 30px;
+}
+
+.container-payment #payment_info form,
+.container-payment #carnet_form form {
+    padding-top: 10px;
+}
+.container-online-payments .container-payment-bi{
+    padding-bottom: 5%;
+}
+.container-payment .pago_banner,
+.container-order-payment .pago_banner {
+    background: #232729;
+    padding: 1%;
+}
+.container-payment .box_content.strait {
+    padding: 1%;
+    border: 2px solid #b89a59;
+}
+.list-table tbody tr.odd td,
+.list-tiny tbody tr.odd td,
+.list-table tbody tr.even td,
+.list-tiny tbody tr.even td {
+    text-align: left;
+}
+
+.list-table thead tr th,
+.list-tiny thead tr th,
+.list-table thead tr th,
+.list-tiny thead tr th {
+    font-family: Montserrat-Bold, sans-serif;
+}
+.container-payment form div input[type="submit"] {
+    margin-top: 30px;
+}
+.container-payment .box_content .authorize-payment {
+    font-size: 30px;
+    line-height: 30px;
+    border-bottom: 0;
+    margin-top: 30px;
+    font-family: Montserrat-Bold, sans-serif;
+}
+.container-payment .container-breadcrumbs {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container-payment .error, .form-widget-error, .form-required-mark, .form-error {
+    display: block!important;
+    color: red!important;
+    border: 0!important;
+    font-family: Montserrat-Light,sans-serif!important;
+    font-size: 14px!important;
+}
+
+.form-help-text {
+    font-size: 14px!important;
+    font-family: Montserrat-Light, sans-serif!important;
+}
+
+.container_autorizar_new {
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+}
+
+.container_autorizar_new .box_content_paying {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+#payment_options h2, .box_big h2, .box_big b font {
+    font-family: Montserrat-Bold,sans-serif;
+}
+
+.box_content_paying td, .box_content td, .box_big td {
+    font-family: Montserrat-Medium,sans-serif;
+}
+
+.box_content form table input[type="text"] {
+    margin-bottom: 5px!important;
+}
+
+.box_big {
+    padding: 15px;
+}
+
+.pago_recibo td, .pago_recibo th {
+    border-bottom: 1px solid #282420;
+}
+
+
+@media only screen and (max-width: 575.98px) {
+    .container-payment #payment_info form select,
+    .container-payment #carnet_form form  select{
+        width: 100% !important;
+        display: flex;
+        padding: 0;
+    }
+    #carnet, #number {
+        width: 100% !important;
+    }
+    .container-payment .box_content {
+        padding-bottom: 30px;
+    }
+    .container-online-payments .container-payment-bi {
+        padding: 0;
+    }
+    .container-online-payments {
+        display: flex;
+        align-items: center;
+    }
+    .container-online-payments div {
+        padding: 1%;
+    }
+    .container-payment .box_content.strait {
+        padding: 2%;
+    }
+    .container-payment form select {
+        display: flex;
+    }
+    .container-payment form input {
+        margin-bottom: 10px;
+    }
+    .container-payment form .form-help-text {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .container-payment form table tbody tr td {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .container-payment form table tbody tr {
+        margin-bottom: 12px;
+    }
+    .container-payment input[type="submit"] {
+        width: 100%;
+    }
+    .default-master-payment .box_content table{
+        display: flex;
+    }
+    .default-master-payment .box_content table tr td{
+        padding: 2%;
+    }
+    .default-master-payment .box_content h2 {
+        border-bottom: 0;
+        font-size: 28px;
+        line-height: 28px;
+        padding-bottom: 20px;
+    }
+    .container-payment .box_content h2 {
+        line-height: 28px;
+        padding-top: 20px;
+        border-bottom: 0;
+    }
+    .default-master-payment .details-transaction {
+        border-top: 2px solid #b89a59;
+        padding-top: 30px;
+    }
+    .container-order-payment .box_content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #receipt table {
+        overflow-x: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #receipt {
+        width: 100%;
+    }
+
+    .container-order-payment input[type="submit"] {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .container-online-payments .container-payment-bi {
+        padding-bottom: 1%;
+    }
+    .container-online-payments {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-online-payments div {
+        padding: 1%;
+    }
+    .container-payment .box_content {
+        padding-bottom: 30px;
+    }
+}
+

@@ -1,0 +1,393 @@
+.simple-navigation-ug .row {
+    display: flex;
+}
+
+.simple-navigation-ug .simple-navigation-item {
+    
+}
+
+.entry-wrapper .simple-navigation .simple-navigation-item {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.simple-navigation-ug .simple-navigation-item a {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-decoration: none;
+}
+
+.blog-single .post .entry-box {
+    text-align: center;
+    
+}
+
+.page-head-ug {
+    background-color:#272b2d;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.page-head-ug .page-title-heading .title {
+    color: #fff;
+    font-family: Montserrat-Bold, sans-serif;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.post-wrap a { 
+    color: #b89a59;
+}
+
+/*.page-head-ug .page-title-heading .title::after {
+    content: '';
+    background: #fff;
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    bottom: -4px;
+    left: 15px;
+}*/
+
+.page-head-ug .blog-single .post .post-content {
+    font-family: Montserrat-Regular, sans-serif;
+
+}
+
+.bread-li-ug a {
+    color: #b89a59;
+}
+
+.bread-li-ug a:hover {
+    color: #fff !important;
+}
+
+.under-white-post {
+    border-top-color: #272b2d !important;
+    border-top: 5px solid;
+    max-width: 100px;
+    margin-top: 1%!important;
+    margin-left: 0;
+}
+.sidebar-ugn .widget-title {
+    margin-bottom: 0;
+    color: #000;
+}
+
+.sidebar-ugn .recent-posts.clearfix li .thumb.item-thumbnail {
+    margin-right: 15px;
+}
+.sidebar-ugn .recent-posts.clearfix li div {
+    width: auto;
+    max-width: 52%;
+    min-width: 80px;
+}
+
+.sidebar-ugn  a {
+    color: #272b2d;
+    font-family: Montserrat-Regular, sans-serif;
+}
+
+.sidebar-ugn .text a {
+    /*word-break: break-all;*/
+    color: #272b2d;
+}
+
+.post-content li,
+.post-content p, .post-content ul,
+.post-content span {
+    color: #000;
+}
+.title-white *{
+    color: #fff !important;
+}
+.post-content a {
+    color: #b89a59;
+}
+
+.post-content a:hover {
+    text-decoration: underline;
+}
+
+.post-content {
+    font-size: 16px;
+}
+
+.post-content a img, .post-content img, .post-content iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.post-content h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.post-content h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.post-content h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.post-content h3, .post-content h4 {
+    line-height: normal;
+    font-weight: bold;
+}
+
+.post-content ul, .post-content ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.post-content em {
+    font-style: italic;
+}
+
+.post-content blockquote {
+    border-left: 0;
+    margin-bottom: 10px;
+}
+
+.content-event-ug {
+    font-size: 16px;
+    color: #000;
+}
+
+.content-event-ug li, .content-event-ug a,
+.content-event-ug p, .content-event-ug ul,
+.content-event-ug span, .content-event-ug div,
+.content-event-ug strong {
+    color: #000!important;
+}
+
+.content-event-ug a {
+    color: #337ab7 !important;
+    word-wrap: break-word;
+}
+
+.content-event-ug a:hover {
+    text-decoration: underline;
+}
+
+.content-pad-ug a, .blog-posts-ug .title a, .blog-posts-ug .item-title a {
+    color: #b89a59;
+}
+
+.blog-posts-ug .date-block {
+    background: #272b2d;
+}
+
+.blog-posts-ug .button, .blog-posts-ug .flat-button {
+    border-color: #b89a59!important;
+    color: #b89a59;
+    text-decoration: none;
+}
+
+.blog-posts-ug .button:hover, .blog-posts-ug .flat-button:hover {
+    background-color: #b89a59!important;
+    color: #fff!important;
+}
+
+.blog-single p,
+.blog-single li, .blog-single ul,
+.blog-single span,
+.blog-single div {
+    font-size: 16px;
+    color: #000;
+    font-family: Montserrat-Light, sans-serif;
+}
+.blog-single .post-content ul{
+    list-style: inherit;
+    margin-left: 2em;
+}
+.blog-single .post-content h5 strong {
+    font-family: Montserrat-Bold, sans-serif;
+}
+.blog-single .post-content h5 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.blog-single .post-content h2,
+.blog-single .post-content h2 span{
+    font-size: 28px;
+    display: block;
+    font-weight: bold;
+}
+.blog-single .post-content h2 strong{
+    font-family: Montserrat-Bold, sans-serif;
+}
+.blog-single .post-content h3,
+.blog-single .post-content h3 span{
+    font-size: 22px;
+    line-height: 1.3em;
+}
+.blog-single .post-content h3 strong{
+    font-size: 22px;
+    font-family: Montserrat-Bold, sans-serif;
+}
+.blog-single .post-wrap .post .post-content .title {
+    font-size: 34px;
+    color: #000;
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+.nav-pills li.active a:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid #b89b52;
+
+}
+
+.breadcrumbs ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/*new styles admisions*/
+
+.card-adm {
+    border: 3px solid #0057bf;
+    padding: 5px 15px;
+}
+
+.card-adm figure {
+    width: 100%;
+    text-align: center;
+}
+
+.card-adm figure figcaption {
+    color: #0057bf;
+    font-family: Montserrat-Bold;
+    font-size: 18px;
+}
+.pages-ug .post-content ul li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: left;
+}
+.post-wrap p {
+    font-family: Montserrat-Light, sans-serif;
+    color: #000;
+    font-size: 16px;
+    text-align: justify;
+}
+.post-wrap .wp-block-columns .wp-block-column p strong{
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+/*end new styles admisions*/
+.post-wrap .wp-block-columns .items-philosophy
+.wp-block-column {
+    padding: 1%;
+}
+.post-wrap .wp-block-columns .items-philosophy
+.wp-block-column p {
+    padding: 4%;
+    height: 100%;
+}
+.blog-single .post-course .course-detail .content-event-ug *{
+    line-height: 1.5;
+}
+.blog-single .post-course .course-detail .content-event-ug ul {
+    list-style: circle;
+    padding: 0 0 10px 5%;
+}
+.blog-single .post-course .course-detail .content-event-ug strong {
+    font-family: Montserrat-Bold, sans-serif;
+}
+.blog-single .post-course .course-detail .content-event-ug a {
+    color: #b89a59 !important;
+    font-family: Montserrat-Bold, sans-serif;
+}
+
+.blog-single .post-course .course-detail .content-event-ug .stHBubble {
+    line-height: 16px;
+}
+
+.post-wrap .container-alliances {
+    padding: 1.5em !important;
+}
+.post-wrap .container-alliances .wp-block-column * {
+    padding: 1% 0%;
+}
+
+.items-msg-rector .wp-block-column:first-child *:first-child{
+    padding-top: 5%;
+}
+.items-msg-rector .wp-block-column:first-child *:last-child{
+    padding-bottom: 5%;
+}
+.items-msg-rector .wp-block-column:first-child *{
+    padding: 0 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.sidebar-ugn .recent-posts {
+    padding-left: 0;
+    margin-left: 0;
+}
+.blog-single .post .entry-box img {
+    width: 100%;
+}
+.post-content em {
+    font-style: italic;
+}
+.widget .recent-posts .text {
+    line-height: 15px;
+}
+.widget .recent-posts .text a {
+    margin-top: 0;
+    text-decoration: none;
+    font:13px/13px Montserrat-Bold, sans-serif;
+}
+.widget .recent-posts .text p {
+    font-size: 12px;
+    padding: 5px 0;
+    text-align: left;
+    color: #666666;
+}
+
+/*jobs*/
+
+.work_box .add-job h2, .work_box .add-job form, .work_box .error_message {
+    padding: 0 15px;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .post-content iframe {
+        width: 100%;
+        height: auto;
+    }
+    .blog-single .post-content ul {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .post-content iframe {
+        width: 100%;
+        height: auto;
+    }
+    .blog-single .post-content ul {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .blog-single .post-content ul {
+        margin-left: 1em;
+    }
+}
+
