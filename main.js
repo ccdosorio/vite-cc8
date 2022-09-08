@@ -275,6 +275,21 @@ document.querySelector("#app").innerHTML = `
     </div>
   </header>
 
+  <div class="container-fl mx-0 px-0">
+    <div id="historias-de-exito" class="carousel slide carousel-op carousel-fade" data-ride="carousel" data-interval="5000">
+      <div class="carousel-inner">
+        <div class="carousel-item item active" interval="5000">
+          <h1>aqui voy</h1>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+
+
+
+
 
   <footer class="footer full-color">
     <section id="bottom">
