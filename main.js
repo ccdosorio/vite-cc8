@@ -281,110 +281,15 @@ document.querySelector("#app").innerHTML = `
     </div>
   </header>
 
+
   <div class="container-fl mx-0 px-0">
     <div id="historias-de-exito" class="carousel slide carousel-op carousel-fade" data-ride="carousel" data-interval="5000">
-      <div class="carousel-inner">
-        <div class="carousel-item item active" interval="5000">
-          <div class="card-image" id="img-externo2">
-            <a class="link-caption-image"></a>
-          </div>
-          <div class="carousel-caption animated fadeInRight">
-            <a class="align-left hidden-xs">
-                <h5 class="animated fadeIn fade">Estas carreras puedes estudiar en Universidad Galileo en 2023</h5>
-            </a>
-            <div class="cm-title">
-                <a class="visible-xs-block link-mobile">Carreras que puedes estudiar en U Galileo en 2022 </a>
-            </div>
-            <div></div>
-            <p class="visible-md-block visible-lg-block animated fadeIn fade">Con un enfoque en la
-                excelencia, Universidad Galileo ofrece una diversidad de carreras de pregrado para que
-                estudies y te conviertas en un profesional en el tema que más te apasiona. Estas
-                carreras técnicas , ingenierías y licenciaturas abarcan áreas como tecnología, salud,
-                química, construcción, administración, deporte, bienestar, educación, farmacéutica y
-                comunicación. Te presentamos algunas [&hellip;]</p>
-            <div class="btn-car-ug hidden-xs">
-                <div class="view-more-ug">
-                    <a class=" btn  btn-left">Ver más </a>
-                </div>
-                <div class="next-ug">
-                    <div class="next-ug-img" id="img-externo825"></div>
-                    <div class="overlay-ug"></div>
-                    <a class=" btn btn-right" role="button" data-slide="next" onclick="return false;">Siguiente</a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="carousel-item item " interval="5000">
-            <div class="card-image" id="img-externo">
-                <a class="link-caption-image"></a>
-            </div>
-            <div class="card-image card-image-mobile" id="img-movil1">
-                <a class="link-caption-image"></a>
-            </div>
-            <div class="carousel-caption animated fadeInRight ">
-                <a class="align-left hidden-xs">
-                    <h5 class="animated fadeIn fade">Conoce las Maestrías y Postgrados que puedes estudiar en Universidad Galileo en 2023</h5>
-                </a>
-                <div class="cm-title">
-                    <a class="visible-xs-block link-mobile">Maestrías y Postgrados a estudiar en U Galileo en 2023 </a>
-                </div>
-                <div></div>
-                <p class="visible-md-block visible-lg-block animated fadeIn fade">La formación personal y
-                    profesional resulta una de las mejores inversiones que puedes hacer en tu vida, ya que
-                    el retorno de inversión que ésta puede traerte con el paso de los años será notorio.
-                    Estudiar una Maestría te motiva a ser más competitivo y asumir un rol de líder, te
-                    diferencia en el mercado [&hellip;]</p>
-                <div class="btn-car-ug hidden-xs">
-                    <div class="view-more-ug">
-                        <a class=" btn  btn-left">Ver más </a>
-                    </div>
-                    <div class="next-ug">
-                        <div class="next-ug-img" id="img-expo-galileo-banner">
-                        </div>
-                        <div class="overlay-ug"></div>
-                        <a class=" btn btn-right" role="button" data-slide="next" onclick="return false;">Siguiente</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <ol class="carousel-indicators">
-            <li data-target="#historias-de-exito" data-slide-to="0" class="active">
-                <div class="overlay-ug"></div>
-                <div
-                    style="background-image:url(https://www.galileo.edu/wp-content/uploads/2022/06/Externo-2.jpg);">
-                </div>
-            </li>
-            <li data-target="#historias-de-exito" data-slide-to="1" class="">
-                <div class="overlay-ug"></div>
-                <div
-                    style="background-image:url(https://www.galileo.edu/wp-content/uploads/2022/06/Externo.jpg);">
-                </div>
-            </li>
-            <li data-target="#historias-de-exito" data-slide-to="2" class="">
-                <div class="overlay-ug"></div>
-                <div
-                    style="background-image:url(https://www.galileo.edu/wp-content/uploads/2022/06/expo-galileo_Banner-HE-copy-3-1-scaled.jpg);">
-                </div>
-            </li>
-            <li data-target="#historias-de-exito" data-slide-to="3" class="">
-                <div class="overlay-ug"></div>
-                <div
-                    style="background-image:url(https://www.galileo.edu/wp-content/uploads/2022/06/Externo-FINAL.png);">
-                </div>
-            </li>
-            <li data-target="#historias-de-exito" data-slide-to="4" class="">
-                <div class="overlay-ug"></div>
-                <div
-                    style="background-image:url(https://www.galileo.edu/wp-content/uploads/2022/05/Bannerexterno2.jpg);">
-                </div>
-            </li>
-        </ol>
-
-      </div>
+    
+    
     </div>
   </div>
+
+
 
   <footer class="footer full-color">
     <section id="bottom">
@@ -547,9 +452,9 @@ document.querySelector("#app").innerHTML = `
 const favIcon = document.getElementById('fav-icon-galileo');
 favIcon.href = iconGalileo;
 
-document.getElementById('img-externo2').style.backgroundImage = `url(${imgExterno2})`;
-document.getElementById('img-movil11').style.backgroundImage = `url(${imgMovil11})`;
-document.getElementById('img-externo825').style.backgroundImage = `url(${imgExterno825})`;
-document.getElementById('img-externo').style.backgroundImage = `url(${imgExterno})`;
-document.getElementById('img-movil1').style.backgroundImage = `url(${imgMovil1})`;
-document.getElementById('img-expo-galileo-banner').style.backgroundImage = `url(${imgExpoGalileoBanner})`;
+// document.getElementById('img-externo2').style.backgroundImage = `url(${imgExterno2})`;
+// document.getElementById('img-movil11').style.backgroundImage = `url(${imgMovil11})`;
+// document.getElementById('img-externo825').style.backgroundImage = `url(${imgExterno825})`;
+// document.getElementById('img-externo').style.backgroundImage = `url(${imgExterno})`;
+// document.getElementById('img-movil1').style.backgroundImage = `url(${imgMovil1})`;
+// document.getElementById('img-expo-galileo-banner').style.backgroundImage = `url(${imgExpoGalileoBanner})`;
