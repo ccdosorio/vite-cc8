@@ -16,5 +16,12 @@
 /* @import './wp-content/themes/galileo-theme/css/animate-wow.css'; */
 @import './wp-content/themes/galileo-theme/css/footer.css';
 @import './wp-content/themes/galileo-theme/css/style-update.css';
+@import './wp-content/themes/galileo-theme/carousel/css/carousel-ug.css';
+@import './wp-content/themes/galileo-theme/css/promotional-ribbon.css';
+@import './wp-content/themes/galileo-theme/css/promotional-ribbon.css';
+@import './wp-content/themes/galileo-theme/css/topicality.css';
+@import './wp-content/themes/galileo-theme/css/events.css';
+@import './wp-content/themes/galileo-theme/css/multimedia-ug.css';
+@import './wp-content/themes/galileo-theme/css/careers-promotion.css';
 
 @import './wp-includes/css/dist/block-library/style.min.css';
