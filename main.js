@@ -1,13 +1,13 @@
 import "./style.css";
-import logoHeader from './wp-content/themes/galileo-theme/img/logo-header.png';
+import logoHeader from './wp-content/themes/galileo-theme/img/logo-header.webp';
 import iconGalileo from './wp-content/themes/galileo-theme/img/favicon.ico';
-import logoFooter from './wp-content/themes/galileo-theme/img/logo-footer.png';
-import imgExterno2 from './wp-content/uploads/2022/06/Externo-2.jpg';
-import imgMovil11 from './wp-content/uploads/2022/06/Movil-1-1.jpg'
-import imgExterno825 from './wp-content/uploads/2022/06/Externo-825x510.jpg';
-import imgExterno from './wp-content/uploads/2022/06/Externo.jpg';
-import imgMovil1 from './wp-content/uploads/2022/06/Movil-1.jpg';
-import imgExpoGalileoBanner from './wp-content/uploads/2022/06/expo-galileo_Banner-HE-copy-3-1-825x510.jpg';
+import logoFooter from './wp-content/themes/galileo-theme/img/logo-footer.webp';
+// import imgExterno2 from './wp-content/uploads/2022/06/Externo-2.jpg';
+// import imgMovil11 from './wp-content/uploads/2022/06/Movil-1-1.jpg'
+// import imgExterno825 from './wp-content/uploads/2022/06/Externo-825x510.jpg';
+// import imgExterno from './wp-content/uploads/2022/06/Externo.jpg';
+// import imgMovil1 from './wp-content/uploads/2022/06/Movil-1.jpg';
+// import imgExpoGalileoBanner from './wp-content/uploads/2022/06/expo-galileo_Banner-HE-copy-3-1-825x510.jpg';
 
 document.querySelector("#app").innerHTML = `
 <div class="boxed">
@@ -359,10 +359,6 @@ document.querySelector("#app").innerHTML = `
                           <li
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-68438 nav-item calendario">
                             <a class="nav-link">Calendario</a>
-                          </li>
-                          <li
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71989 nav-item trends-and-innovation">
-                            <a class="nav-link">Trends and Innovation</a>
                           </li>
                         </ul>
                       </div>
