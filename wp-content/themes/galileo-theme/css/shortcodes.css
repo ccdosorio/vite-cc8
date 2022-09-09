@@ -903,8 +903,8 @@
 }
 
 .event-thumbnail img {
-    width: 100%;
-    height: auto;
+    width: 285px;
+    height: 346.73px;
     transition: all .4s;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;

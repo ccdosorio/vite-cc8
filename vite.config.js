@@ -1,7 +1,10 @@
+import { defineConfig } from 'vite'
 import viteCompression from 'vite-plugin-compression';
 
-export default () => {
-    return {
-        plugins: [viteCompression()],
-    };
-};
+
+export default defineConfig({
+  server: {
+    port: 8080,
+  },
+  plugins: [viteCompression()],
+})
