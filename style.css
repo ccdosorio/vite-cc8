@@ -1,1 +1,13 @@
-@import './base.css';
+@import './wp-content/plugins/getwid/vendors/fontawesome-free/css/all.min.css';
+@import './wp-content/themes/galileo-theme/carousel/css/carousel-ug.css';
+@import './wp-content/themes/galileo-theme/css/promotional-ribbon.css';
+@import './wp-content/themes/galileo-theme/css/topicality.css';
+@import './wp-content/themes/galileo-theme/css/footer.css';
+@import './wp-content/themes/galileo-theme/css/style.css';
+@import './wp-content/themes/galileo-theme/css/content-cactus.css';
+@import './wp-content/themes/galileo-theme/css/header.css';
+@import './wp-content/themes/galileo-theme/css/bootstrap.min.css';
+@import './wp-content/themes/galileo-theme/css/events.css';
+@import './wp-content/themes/galileo-theme/css/shortcodes.css';
+@import './wp-includes/css/dist/block-library/style.min.css';
+@import './wp-content/themes/galileo-theme/css/multimedia-ug.css';
