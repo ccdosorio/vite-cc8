@@ -13,6 +13,7 @@
     "vite-plugin-compression": "^0.5.1"
   },
   "dependencies": {
+    "css-aspect-ratio": "^1.0.5",
     "jquery": "^3.6.1"
   }
 }

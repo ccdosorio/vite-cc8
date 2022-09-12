@@ -11,3 +11,4 @@
 @import './wp-content/themes/galileo-theme/css/shortcodes.css';
 @import './wp-includes/css/dist/block-library/style.min.css';
 @import './wp-content/themes/galileo-theme/css/multimedia-ug.css';
+@import "css-aspect-ratio/css-aspect-ratio";
