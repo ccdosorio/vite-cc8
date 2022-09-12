@@ -1,4 +1,7 @@
 import "./style.css";
+import './wp-content/plugins/getwid/assets/js/frontend.blocks.js';
+import './wp-content/themes/galileo-theme/js/jQuery.verticalCarousel.js';
+import './wp-content/themes/galileo-theme/js/owl.carousel.js';
 
 document.querySelector("#header-inner").innerHTML = `
 <div id="logo" class="logo">
